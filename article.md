@@ -358,7 +358,32 @@ Tests:       2 passed, 2 total
 Snapshots:   1 updated, 1 total
 Time:        0.735 s, estimated 1 s
 Ran all test suites.
+```
 
+Et le contenu de notre snapshot de référence devient donc : 
+```
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`S'affiche correctement 1`] = `
+<div>
+  <p>
+    Nombre d'éléments : 2
+  </p>
+   
+  <ul>
+    <li>
+      
+      Premier élément
+    
+    </li>
+    <li>
+      
+      Deuxieme élément
+    
+    </li>
+  </ul>
+</div>
+`;
 ```
 
 # Conclusion

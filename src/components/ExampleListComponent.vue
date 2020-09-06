@@ -1,13 +1,13 @@
 <template>
-<!--  <div>-->
-<!--    <p>Nombre d'éléments : {{ numberOfElements }}</p>-->
+  <div>
+    <p>Nombre d'éléments : {{ numberOfElements }}</p>
 
     <ul>
       <li v-for="item in items" :key="item.id">
         {{item.value}}
       </li>
     </ul>
-<!--  </div>-->
+  </div>
 </template>
 
 <script>

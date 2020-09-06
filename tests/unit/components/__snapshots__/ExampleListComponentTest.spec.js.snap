@@ -1,16 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`S'affiche correctement 1`] = `
-<ul>
-  <li>
-    
-        Premier élément
+<div>
+  <p>
+    Nombre d'éléments : 2
+  </p>
+   
+  <ul>
+    <li>
       
-  </li>
-  <li>
+      Premier élément
     
-        Deuxieme élément
+    </li>
+    <li>
       
-  </li>
-</ul>
+      Deuxieme élément
+    
+    </li>
+  </ul>
+</div>
 `;

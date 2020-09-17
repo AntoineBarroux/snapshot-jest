@@ -157,7 +157,7 @@ de composants avec ce framework.
 
 Dans cet exemple, on teste le bon fonctionnement de notre composant et de son cycle de vie. Mais qu'en 
 est-il de l'affichage de ce composant ? On ne vérifie pas que les items sont bien rendus. Il serait 
-possible de rajouter une méthode d'affirmer que chaque élément de la liste soit correctement affiché, 
+possible de rajouter une méthode qui permet d'affirmer que chaque élément de la liste soit correctement affiché, 
 avec un code qui ressemblerait à ceci : 
 
 ```

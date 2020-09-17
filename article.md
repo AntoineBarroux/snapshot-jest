@@ -242,7 +242,7 @@ ou notre *package.json* :
 
 Le fonctionnement de ces tests est le suivant : on va rendre le composant et comparer le snapshot généré 
 avec une référence, qui a été générée précédemment. Lors de la fin du développement d'un composant, 
-on va donc générer un snapshot du rendu de celui-ci. Celui-ci permettra de s'assurer lors des développements 
+on va donc générer un snapshot du rendu de celui-ci. Il permettra de s'assurer lors des développements 
 futurs que l'affichage de votre interface n'a pas été impactée. On considère, au moment ou le snapshot est généré, 
 que le rendu du composant est conforme à ce qui est attendu. 
 
